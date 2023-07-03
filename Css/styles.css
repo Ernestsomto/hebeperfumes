@@ -1,0 +1,589 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container-main {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    background-color: whitesmoke;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1, h2 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0px 0px 10px;
+}
+
+p {
+    margin: 5px 0px;
+}
+
+
+/* This is the navbar area*/
+.Navbar {
+    padding: 10px;
+    height: 50px;
+    background-color:#014a59;
+    
+
+}
+
+.Navbar h1 {
+    color: gainsboro;
+    font-size: 25px;
+}
+
+
+.Navbar ul {
+    display: flex;
+    word-spacing: 1.6px;
+}
+
+.Navbar a {
+    padding: 5px;
+    margin: 0px 10px;
+    color: gainsboro;
+}
+
+.Navbar a:hover {
+    border-bottom: 2px gainsboro solid;
+}
+
+.Navbar .Navbar-Container {
+    justify-content: space-between;
+    display: flex;
+    overflow: hidden;
+    
+}
+
+/* Main header area*/
+.mainheadbar{
+    background-image: url(/images/PerfBG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 420px;
+    position: relative; 
+}
+
+.mainheadbar h1 {
+    font-size: 45px;
+    color: gainsboro;
+}
+
+.mainheadbar p, a {
+    margin: 20px 0px;
+    color: gainsboro;
+    font-size: 18px;
+}
+
+
+.outline1 {
+    margin-right: 4px;
+    padding: 5px;
+    border: 1px gainsboro solid;
+    border-radius: 10px;
+}
+
+.outline2 {
+    margin-left: 4px;
+    padding: 5px;
+}
+
+.headbar-text {
+    padding-top: 85px;
+    padding-left: 10px;
+}
+
+.small-info {
+    padding: 70px;
+}
+
+.small-info h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.small-info  h2 {
+    font-size: 28px;
+    font-weight: 400px;
+   
+}
+
+.grid-text>h3 {
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.main-text img {
+    padding: 5px;
+    float: right;
+    border-radius: 10px;
+    box-shadow: 0 0 0 0.2px;    
+}
+
+.main-text img {
+    margin-top: 10px;
+    width: 200px;
+    height: 150px;
+}
+
+.Perfumegroups {
+    clear: right;
+    
+}
+
+.Perfumegroups img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 0.2px;
+}
+
+.perfitems{
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfitems img, h4 {
+    margin: 10px;
+    padding: 3px;
+}
+
+
+.card table {
+    position: relative;
+    margin-left: 40%;
+    margin-top: 25px;
+}
+
+.card table>caption{
+    text-align: center;
+    font-size: 18px;
+}
+
+.card {
+    margin: 10px;
+    padding: 20px;
+}
+
+.card p {
+    margin-right: 10px;
+    text-align: justify;
+}
+
+
+.card img {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin: 3px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 0.2px;
+}
+
+.card h3 {
+    font-size: 22px;
+}
+
+.main img{
+    width: 100px;
+    height: 100px;
+    margin: 7px;
+    padding: 4px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 0.2px;
+}
+
+.main p {
+    text-align: justify;
+}
+
+.perf-info {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+p.title {
+    font-size: 27px;
+    font-weight: bolder;
+}
+
+
+
+.grid-cardflex1 img{
+     float: right; 
+     margin: 7px;
+     margin-top: 50px;
+     padding: 5px;
+}
+
+
+.grid-cardflex1 table {
+    clear: right;
+}
+
+.grid-cardflex2 img {
+    float: left;
+    margin: 7px;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.grid-cardflex2 table {
+    clear: left;
+}
+
+.grid-cardflex3 img {
+    float: right;
+    margin: 7px;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.grid-cardflex4 img {
+    float: left;
+    margin: 7px;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+
+.perf-info {
+    clear: both;
+}
+
+.perf-info-more img {
+    float: left;
+    
+}
+.info {
+    clear: both;
+}
+
+
+.imgbox img{
+    width: 120px;
+    height: 100px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 0 0.2px;
+}
+
+.imgbox p {
+    text-align: justify;
+    padding: 3px;
+}
+
+
+.perf1-fashion {
+    margin-top: 70px;
+    padding: 4px;
+}
+
+.perf1-fashion img {
+    float:right;
+    margin: 5px;
+    padding: 4px;
+}
+.perf2-fashion img {
+    float: left;
+    margin: 5px;
+    padding: 4px;
+}
+
+
+.perf3-fashion img {
+    float:right;
+    margin: 5px;
+    padding: 4px;
+}
+
+.perf3-fashion {
+    margin-top: 35px;
+    padding: 4px;
+}
+
+.wrap-up {
+    clear: both;
+}
+
+.wrap-up P {
+    text-align: justify;
+}
+
+.wrap-up dd {
+    text-align: justify;
+}
+
+
+.perf4-fashion img {
+    float:left;
+    margin: 5px;
+    padding: 4px;
+
+}
+
+.footericons {
+    margin-top: 25px;
+}
+
+.footer-grid {
+    height: 300px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #014a59;
+    color: gainsboro;
+
+}
+
+form {
+    width: 200px;
+}
+
+.Mainform input[type='text']
+{
+    border: 0px;
+    border-radius: 25px;
+    width: 200px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.Mainform input[type='submit'] {
+    border: 0px;
+    font-size: 14px;
+    border-radius:10px;
+    padding: 5px;
+    margin-top: 5px;
+    
+}
+
+.Mainform input[type='Submit']:hover {
+    transform: scale(0.96);
+}
+
+.Mainform input:focus {
+    outline: none;
+}
+
+.footericons {
+    display: flex;
+}
+
+.footer .social a {
+    margin: 0 10px;
+    
+}
+
+.social {
+    margin-left: 70%;
+}
+
+.footer-search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links li {
+    margin: 3px;
+}
+
+.footer-grid p {
+    font-size: 15px;
+    text-align: center;
+}
+.footer-links a:hover {
+    border-bottom: 2px solid gainsboro;
+}
+.footer-links a {
+    margin-left: 10px;
+}
+
+.footer-grid h2 {
+    margin-left: 10px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+
+
+/* media quary for Mobiles */
+
+@media(max-width: 500px) {
+    .Navbar {
+        display: inline-block;
+        padding: 7px
+    }
+
+    .Navbar a {
+        margin-left: 7px;
+        display: inline-block;
+        width: 200%;
+        font-size: 12px; 
+    }
+
+    .Navbar a:hover {
+        border-bottom: none;
+        transform: scale(0.98);
+    }
+
+    .Navbar .logo {
+        font-size: 8px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .headbar-text>h1 {
+        font-size: 20px;
+    }
+
+    .headbar-text p {
+        font-size: 12px;
+    }
+
+    .headbar-text a {
+        font-size: 13px;
+    }
+
+
+    .container-main {
+        overflow: hidden;
+    }
+
+    .mainheadbar {
+        background-image: url(/images/PerfBG.jpg);
+        background-size: contain;
+        height: 300px;
+    }
+
+    .small-info {
+        padding: 20px;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+
+    .small-info h2 {
+        font-size: 18px;
+        font-weight: 300;
+
+    }
+
+    .small-info h3 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 13px;
+    }
+
+    .main-text img {
+    width: 150px;
+    height: 100px;
+    margin: 6px;
+    padding: 5px;
+    }
+
+    .Perfumegroups img {
+        width: 120px;
+        height: 120px;
+        border-radius: 10px;
+        box-shadow: 0 0 0 0.2px;
+    }
+
+    .perfitems {
+        display: grid;
+        grid-template-columns: 0fr;
+        grid-template-rows:1fr ;
+        gap: 7px; 
+    }
+
+    .image2 {
+        grid-column: span1;
+    }
+
+    .image4 {
+        grid-column: span1;
+    }
+
+    .card {
+        margin: 0px;
+        padding: 0px;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .card table {
+      position: relative;
+      width: 80%;
+      margin-left: 15%;
+    }
+
+    .card table caption {
+        font-size: 14px;
+        text-align: center;
+        margin-right: 50px;
+
+    }
+   
+    .card img {
+        width: 120px;
+        height: 120px;
+        margin: 5px;
+        padding: 4px;
+    }
+
+    .perf-fashion {
+        margin-top: 37px;
+        padding: 0px;
+    
+    }
+
+    .imgbox p {
+        font-size:14px;
+        text-align: justify;
+
+    }
+
+    .imgbox .title {
+        font-size: 18px;
+    }
+
+    .footer  {
+        font-size: 8px;
+    }
+
+    .footer p {
+        margin: 40px;
+        font-size:12px;
+    }
+
+    .footer-links {
+        width: 700px;
+    }
+
+    .footer-links a {
+    font-size: 10px;
+
+    }  
+    
+}
